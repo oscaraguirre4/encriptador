@@ -1,0 +1,303 @@
+@media only screen and (max-device-width: 375px) and (max-device-height: 933px) {
+  body {
+    /* Encriptador - 1 Celular */
+    position: relative;
+    width: 375px;
+    height: 933px;
+    /* Light blue/light-blue-100 */
+    background: #f3f5fc;
+  }
+  header {
+    /* Header */
+    position: absolute;
+    width: 375px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+    /* Bg */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+
+  #logo {
+    /* Vector */
+    position: absolute;
+    left: 4.27%;
+    right: 87.2%;
+    top: 25%;
+    bottom: 25%;
+    background: #0a3871;
+  }
+  #texto1 {
+    /* Ingrese el texto aqui */
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 152px;
+    /*caracteristica texto*/
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    /* Dark blue/dark-blue-300 */
+    color: #0a3871;
+  }
+  #texto2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+
+    position: absolute;
+    width: 327px;
+    height: 186px;
+    left: 24px;
+    top: 707px;
+    /* White */
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+  #texto2in {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 263px;
+    height: 122px;
+    left: 32px;
+    top: 32px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+  #texto2in h1 {
+    /* Ningún mensaje fue encontrado */
+    position: static;
+    width: 263px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+    /* Gray/gray-500 */
+    color: #343a40;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  #texto2in h3 {
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+    position: static;
+    width: 263px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  #vectorin {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #67808e;
+  }
+  #vector {
+    /* Group */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  #vectorout {
+    /* bi:exclamation-circle-fill */
+    position: static;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 1px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  #advertencia {
+    /* Solo letras minúsculas y sin acentos */
+    position: static;
+    width: 205px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    /* Gray/gray-400 */
+    color: #495057;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  #advertenciaTexto {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 16px;
+    top: 451px;
+  }
+  #buttons {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 343px;
+    height: 158px;
+    left: 16px;
+    top: 485px;
+  }
+  #button2 {
+    /* Button2 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 343px;
+    height: 67px;
+    left: 0px;
+    top: 91px;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0a3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+  }
+  #button1 {
+    /* Button 1*/
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 343px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    /* Dark blue/dark-blue-300 */
+    background: #0a3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+  }
+  #button1text {
+    /* Button */
+    position: static;
+    width: 295px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* White */
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+  }
+  #button2text {
+    /* Button2 */
+    position: static;
+    width: 295px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* Dark blue/dark-blue-300 */
+    color: #0a3871;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+  }
+}
