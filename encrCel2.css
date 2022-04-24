@@ -38,14 +38,14 @@
     height: 624px;
     left: 16px;
     top: 152px;
-    
-    font-family: 'Inter';
+
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    /* or 48px */  
-    color: #0A3871;
+    /* or 48px */
+    color: #0a3871;
   }
   #texto2 {
     /* Auto layout */
@@ -86,26 +86,25 @@
   #texto2in h1 {
     /* Ningún mensaje fue encontrado */
     position: static;
-    width: 263px;
-    height: 58px;
-    left: 0px;
-    top: 0px;
+    width: 279px;
+    height: 432px;
+    left: 32px;
+    top: 32px;
 
     font-family: "Inter";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 120%;
-    /* or 29px */
-    text-align: center;
-    /* Gray/gray-500 */
-    color: #343a40;
+    line-height: 150%;
+    /* or 36px */
+    /* Gray/gray-400 */
+    color: #495057;
     /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 16px 0px;
+    margin: 32px 0px;
   }
   #texto2in h3 {
     /* Ingresa el texto que desees encriptar o desencriptar. */
@@ -130,6 +129,52 @@
     align-self: stretch;
     flex-grow: 0;
     margin: 16px 0px;
+  }
+  #buttoncopy {
+    /* Button */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 279px;
+    height: 67px;
+    left: 32px;
+    top: 496px;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0a3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+  }
+  #buttoncopytext {
+    /* Button */
+    position: static;
+    width: 231px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* Dark blue/dark-blue-300 */
+    color: #0a3871;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
   }
   #vectorin {
     position: absolute;
