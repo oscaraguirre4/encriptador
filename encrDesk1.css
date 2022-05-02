@@ -1,44 +1,51 @@
-@media only screen and (max-device-width: 768px) and (max-device-height: 1384px) {
+@media only screen and (max-device-width: 1440px) and (max-device-height: 1024px) {
   body {
-    /* Encriptador - 2 Tablet */
+    /* Encriptador - 1 Desktop */
     position: relative;
-    width: 768px;
-    height: 1384px;
+    width: 1440px;
+    height: 1024px;
     /* Light blue/light-blue-100 */
-    background: #f3f5fc;
     background: #f3f5fc;
   }
   header {
     /* Header */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
     position: absolute;
-    width: 31.09px;
-    height: 49.03px;
+    width: 120px;
+    height: 48px;
     left: 40px;
-    top: 74.97px;
+    top: 40px;
   }
   #logo {
-    position: absolute;
-    left: 5.21%;
-    right: 90.74%;
-    top: 5.42%;
-    bottom: 91.16%;
-    /* Dark blue/dark-blue-300 */
-    background: #0a3871;
+    position: static;
+    width: 120px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
   }
   #texto1 {
     /* Ingrese el texto aqui */
     position: absolute;
-    width: 688px;
-    height: 288px;
-    left: 40px;
-    top: 240px;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
 
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    /* or 48px */
+    /* identical to box height, or 48px */
     /* Dark blue/dark-blue-300 */
     color: #0a3871;
   }
