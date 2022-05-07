@@ -1,15 +1,15 @@
-@media only screen and (min-device-width: 375px) and (min-device-height: 1715px) {
+@media only screen and (min-device-width: 1440px) and (min-device-height: 1024px) {
   body {
-    /* Encriptador - 2 Celular */
+    /* Encriptador - 2 Desktop */
     position: relative;
-    width: 375px;
-    height: 1715px;
+    width: 1440px;
+    height: 1024px;
     /* Light blue/light-blue-100 */
     background: #f3f5fc;
   }
   header {
     /* Header */
-    position: fixed;
+    position: absolute;
     width: 375px;
     height: 96px;
     left: 0px;
@@ -28,10 +28,10 @@
   #ingreseTexto {
     /* Ingrese el texto aqui */
     position: absolute;
-    width: 343px;
-    height: 48px;
-    left: 16px;
-    top: 152px;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
     /* Formato texto*/
     font-family: "Inter";
     font-style: normal;
